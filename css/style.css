@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -16,4 +19,38 @@ header{
 .logo-title{
     display: inline-block;
     vertical-align:middle;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+/* Container */
+.container{
+    margin: 10px auto;
+    padding: 30px;
+
+    background-color: blue;
+    height: 1200px;
+    width: 700px;
+}
+
+/* Task menager */
+.cont-buttons{
+    margin-bottom: 50px;
+}
+.style-button{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    
+}
+
+.blue-button{
+    color: white;
+    background-color: #007aff;
+    border: none;
+}
+
+.white-button{
+    color: gray;
+    border-color: gray;
 }
