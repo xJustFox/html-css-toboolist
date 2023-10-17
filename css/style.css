@@ -8,7 +8,12 @@
 }
 
 header{
-    margin: 15px 0px 0px 15px;
+    background-color: white;
+    padding: 15px 0px 0px 15px;
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.3);
 }
 
 /* Logo and Title */
@@ -24,21 +29,22 @@ header{
 
 /* Container */
 .container{
+    background-color: white;
     margin: 30px auto;
-    padding: 30px;
-    width: 900px;
-    background-color: rgba(128, 128, 128, 0.2);
-    border-radius: 20px;
+    width: 1000px;
+    border-radius: 5px;
 }
 
 /* Task menager */
 .cont-buttons{
-    margin-bottom: 50px;
+    padding: 10px 50px 10px 50px ;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgba(128, 128, 128, 0.3);
 }
 
 .style-button{
-    padding: 9px;
-    border-radius: 5px;
+    padding: 8px;
+    border-radius: 6px;
 }
 
 .blue-button{
@@ -53,6 +59,10 @@ header{
 }
 
 /* List */
+
+.container-tasks{
+    padding: 50px;
+}
 
 .title-tasks{
     margin-bottom: 20px;
