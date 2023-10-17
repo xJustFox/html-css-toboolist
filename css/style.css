@@ -19,29 +19,26 @@ header{
 .logo-title{
     display: inline-block;
     vertical-align:middle;
-    font-size: 50px;
-    font-weight: 900;
+    font-size: 40px;
 }
 
 /* Container */
 .container{
-    margin: 10px auto;
+    margin: 30px auto;
     padding: 30px;
-
-    background-color: blue;
-    height: 1200px;
-    width: 700px;
+    width: 900px;
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 20px;
 }
 
 /* Task menager */
 .cont-buttons{
     margin-bottom: 50px;
 }
+
 .style-button{
-    height: 30px;
-    width: 80px;
+    padding: 9px;
     border-radius: 5px;
-    
 }
 
 .blue-button{
@@ -50,7 +47,77 @@ header{
     border: none;
 }
 
-.white-button{
+.white-button{    
     color: gray;
-    border-color: gray;
+    border-color: rgba(128, 128, 128, 0.2);
+}
+
+/* List */
+
+.title-tasks{
+    margin-bottom: 20px;
+    list-style: "\1F893";
+    list-style-image: url();
+    vertical-align: middle;
+    list-style: none;   
+}
+
+.tasks{
+    font-size: 20px;
+    line-height: 2.5;
+    list-style-type: none
+}
+
+.arrowhead{
+    height: 10px;
+    vertical-align: middle;
+}
+
+.title-tasks h3{
+    display: inline-block;
+}
+
+.check{
+    height: 20px;
+    vertical-align: middle;
+}
+
+.cross{
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+.box-tasks{
+    box-sizing: content-box;
+    padding: 5px 15px;
+    font-size: 12px;
+    border-radius: 25px;
+    color: white;
+}
+
+/* Color Box */
+
+.blue{
+    background-color: #007aff;
+}
+
+.purple{
+    background-color: #5856d6;
+}
+
+.green{
+    background-color: #4cd964;
+}
+
+.orange{
+    background-color: #ff9500;
+}
+
+.pink{
+    background-color: #ff2d55;
+}
+
+.yellow{
+    background-color: #ffcc00;
 }
