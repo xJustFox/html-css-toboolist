@@ -9,7 +9,7 @@
 
 header{
     background-color: white;
-    padding: 15px 0px 0px 15px;
+    padding: 15px 0px 15px 15px;
 }
 
 body{
@@ -45,17 +45,19 @@ body{
 .style-button{
     padding: 8px;
     border-radius: 6px;
+    font-weight: 600;
 }
 
 .blue-button{
     color: white;
     background-color: #007aff;
-    border: none;
+    border-color: #007aff;
 }
 
-.white-button{    
-    color: gray;
-    border-color: rgba(128, 128, 128, 0.2);
+.white-button{  
+    background-color: transparent;  
+    color: rgba(128, 128, 128, 0.5);
+    border-color: rgba(128, 128, 128, 0.5);
 }
 
 /* List */
@@ -66,8 +68,6 @@ body{
 
 .title-tasks{
     margin-bottom: 20px;
-    list-style: "\1F893";
-    list-style-image: url();
     vertical-align: middle;
     list-style: none;   
 }
@@ -79,29 +79,18 @@ body{
 }
 
 .arrowhead{
-    height: 10px;
-    vertical-align: middle;
+    font-size: 15px;
 }
 
 .title-tasks h3{
     display: inline-block;
 }
 
-.check{
-    height: 20px;
-    vertical-align: middle;
-}
-
-.cross{
-    height: 20px;
-    vertical-align: middle;
-}
-
 .w-check{
     font-size: 15px;
     color: green;
     border: 1px solid green;
-    border-radius: 50px;
+    border-radius: 50%;
     margin-right: 5px;
     padding-left: 3px;
 }
@@ -110,7 +99,7 @@ body{
     font-size: 15px;
     color: red;
     border: 1px solid red;
-    border-radius: 50px;
+    border-radius: 50%;
     margin-right: 5px;
     padding-left: 2px;
 }
