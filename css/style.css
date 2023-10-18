@@ -97,6 +97,24 @@ body{
     vertical-align: middle;
 }
 
+.w-check{
+    font-size: 15px;
+    color: green;
+    border: 1px solid green;
+    border-radius: 50px;
+    margin-right: 5px;
+    padding-left: 3px;
+}
+
+.w-cross{
+    font-size: 15px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50px;
+    margin-right: 5px;
+    padding-left: 2px;
+}
+
 
 .box-tasks{
     box-sizing: content-box;
